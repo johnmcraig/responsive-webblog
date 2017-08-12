@@ -40,6 +40,11 @@
      margin-bottom: 1.25rem;
 }
 
+#nav-bar li {
+    padding: 0 1px 0 .25rem;
+    margin: 1rem;
+}
+
 header, a {
     color: #FAFAFA;
 }
