@@ -18,7 +18,7 @@
 
  [class*="col-"] {
      float: left;
-     padding: 15px;
+     padding: 10px;
  }
 
  html {
@@ -92,13 +92,14 @@ body {
 footer {
    position: absolute;
    bottom: 0;
-   width: 100%;
-   padding: .75rem;
-   margin: 0 .25rem;
+   width: 99%;
+   padding: .55rem;
+   margin: .25 .25rem;
    height: 2.75rem;
    background:#000000;
 }
 
 footer p {
     color: #FAFAFA;
+    text-align: center;
 }
