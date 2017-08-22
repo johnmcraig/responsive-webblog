@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    
     <title>JC's Blog</title>
 </head>
 <body>
 
-<div id="nav-bar" class="header">
+<div id="nav-bar" class="col-md-12">
   <header>
       <h2>John Craig's Blog</h2>
-        <nav>
+        <nav class="nav-bar">
             <ul>
+            <span class="glyphicon glyphicon-home"></span> 
               <a href="index.html"><li>Home</li></a>
               <a href="about.html"><li>About Me</li></a>
               <a href="https://google.com"><li>Get Me Out of Here!</li></a> 
@@ -21,21 +25,24 @@
         </nav>
     </header>
 </div>
-  
+
+<div class="container">
 <div id="body-content" class="row">
     
 
     <main>
-         <div id="main-menu" class="col-3">
+         <div id="main-menu" class="col-sm-3">
             <ul>
                 <a href="https://www.linkedin.com/in/john-craig-711777141/"><li>LinkedIn Profile</li></a>
+                
                 <a href="https://github.com/johnmcraig"><li>GitHub Page</li></a>
+                <span class="glyphicon glyphicon-github"></span>
                 <a href="https://news.ycombinator.com/"><li>Tech News</li></a>
             </ul>
         </div>
 
-        <div id="main-content" class="col-9">
-            <h2>A few things about me.</h2>
+        <div id="main-content" class="col-md-9">
+            <h2>A few things about me:</h2>
             <p>I've been learning on and off to code since 2015.</p>
             <p>I have a GitHub page, an Azure account, and work with web development as a learning path to a new career (or improve my current one).</p>
             <p>I have provided a LinkedIn profile as well.</p>
@@ -43,15 +50,15 @@
         </div>
     </main>
 
-    
-
-    <footer id="footer" class="col-12">
-        <p>&copy 2017 John M. Craig. Made on GitHub. MIT License (just in case).</p>
-    </footer>
-    <script>
-        
-    </script>
 </div>
-    
+
+
+<div class="container">
+    <div class="row">
+        <footer id="footer" class="col-md-12">
+        <p>&copy 2017 John M. Craig. Made on GitHub. MIT License.</p>
+    </footer>
+    </div>
+</div>   
 </body>
 </html>

@@ -16,17 +16,29 @@
     }
  }
 
- [class*="col-"] {
+ /*
+ @media only screen and (min-width: 768px){
+    [class*="col-"] {
+        width: 100%;
+    }
+ }
+*/
+ /*[class*="col-"] {
      float: left;
      padding: 10px;
  }
-
+*/
  html {
      font-family: Arial, Helvetica, sans-serif;
      font-size: 100%;
      padding: 0;
      margin: 0;
      height: 100%;
+     box-sizing: border-box;
+ }
+
+ *, *:before, *:after{
+     box-sizing: inherit;
  }
 
  ul, il {
@@ -88,17 +100,14 @@ aside {
 body {
     padding-bottom: 2.75rem;
 }
-
-footer {
+/*
+#footer {
    position: absolute;
    bottom: 0;
-   width: 99%;
-   padding: .55rem;
-   margin: .25 .25rem;
-   height: 2.75rem;
+   width: 100%;
    background:#000000;
 }
-
+*/
 footer p {
     color: #FAFAFA;
     text-align: center;

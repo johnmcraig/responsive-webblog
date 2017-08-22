@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
     <title>JC's Blog</title>
 </head>
 <body>
@@ -12,8 +15,9 @@
 <div id="nav-bar" class="header">
   <header>
       <h2>John Craig's Blog</h2>
-        <nav>
+        <nav class="nav-bar">
             <ul>
+            <span class="glyphicon glyphicon-home"></span> 
               <a href="index.html"><li>Home</li></a>
               <a href="about.html"><li>About Me</li></a>
               <a href="https://google.com"><li>Get Me Out of Here!</li></a> 
@@ -22,11 +26,14 @@
     </header>
 </div>
   
+<div class="container">
+
+
 <div id="body-content" class="row">
     
 
     <main>
-        <div id="main-menu" class="col-3">
+        <div id="main-menu" class="col-md-3">
             <ul>
                 <a href="index.html"><li>Current Post</li></a>
                 <a href="about.html"><li>What's New</li></a>
@@ -34,7 +41,7 @@
             </ul>
         </div>
 
-        <div id="main-content" class="col-9">
+        <div id="main-content" class="col-md-9">
             <h2>See the latest that is happening around here!</h2>
             <p>On August 11th, 2017 this page was created using only HTML5 and CSS.</p>
             <p>It is a responsive (supposedly) web page, meaning it can re-size itself based on the device used to view it, such as a desktop, tablet, and/or a phone.</p>
@@ -53,14 +60,16 @@
 
     </main>
 
-    
+</div>
 
-    <footer id="footer" class="">
-        <p>&copy 2017 John M. Craig. Made on GitHub. MIT License (just in case).</p>
+<div class="container">
+    <div class="row">
+    <footer id="footer" class="col-md-12">
+        <p>&copy 2017 John M. Craig. Made on GitHub. MIT License.</p>
     </footer>
-    <script>
-        
-    </script>
+    </div>
+</div>
+   
 </div>
     
 </body>
