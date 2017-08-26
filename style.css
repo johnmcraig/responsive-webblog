@@ -23,7 +23,8 @@
     }
  }
 */
- /*[class*="col-"] {
+/*
+ [class*="col-"] {
      float: left;
      padding: 10px;
  }
@@ -100,15 +101,15 @@ aside {
 body {
     padding-bottom: 2.75rem;
 }
-/*
-#footer {
+
+footer {
    position: absolute;
+   padding: 1rem;
    bottom: 0;
    width: 100%;
    background:#000000;
 }
-*/
-footer p {
+
+footer li {
     color: #FAFAFA;
-    text-align: center;
 }
