@@ -108,6 +108,7 @@ footer {
    bottom: 0;
    width: 100%;
    background:#000000;
+   height: 50px;
 }
 
 footer li {
